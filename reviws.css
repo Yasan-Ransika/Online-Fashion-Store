@@ -1,0 +1,110 @@
+.rivus{
+    background: gray;
+    position: relative;
+    width:100%;
+    padding: 40px 100px;
+    height:55em;
+}
+
+.rivus .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.rivus .title h2 {
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form{
+    grid-area: form;
+    padding: 40px;
+    margin-left: 20px;
+}
+
+.info{
+    grid-area: info;
+}
+
+.riv{
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+    float:right;
+}
+
+.riv_form{
+    width: 100%;
+    background: #fff;
+}
+
+.formbox{
+    position: relative;
+    width: 85%;
+    margin-left: 30px;
+}
+.formbox .row50 {
+    display: flex;
+    gap: 20px;
+}
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+    
+}
+.formbox .row50 .inputBox {
+    width: 100%;
+}
+.inputBox span {
+    color: #18b7ff;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.inputBox input {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+}
+.inputBox textarea {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px;
+}
+.inputBox input[type ="submit"] {
+    background: #ff578b;
+    color: #fff;
+    border: none;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer ;
+    padding: 14px 15px;
+}
+.inputBox::placeholder {
+    color :#999;
+}
+.view-button {
+    padding: 10px 20px;
+    background-color:#18b7ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  h2{
+    text-align: center;
+  }
+
+  

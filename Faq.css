@@ -1,0 +1,83 @@
+
+body {
+	color: #fff;
+	background-color: #837c7c;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .box {
+	background-image: linear-gradient(#044f13,#012733);
+	
+	border-radius: 10px;
+	box-shadow: 0 2px 4px rgb(253, 252, 252);
+	margin: 20px auto;
+	max-width: 800px;
+	padding: 20px;
+  }
+  
+  .faq_pg {
+	text-align: center;
+  }
+  
+  #Header {
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 20px;
+  }
+  
+  #faqQst {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #f1730c;
+  }
+  
+  #faqPara {
+	margin-bottom: 20px;
+  }
+  
+  /*.full-size-button {
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #02192f;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  .full-size-button:hover {
+	background-color: #f7fbf8;
+  }
+  */
+  .full-size-button {
+    width: 55%;
+    height: 60px;
+    background-color: #008080;
+    color: #ffffff; 
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+	margin: 0 auto;
+    display: block;
+  }
+  
+  .full-size-button:hover {
+    background-color: #00b3b3; 
+  }
+  
+  .full-size-button:focus {
+    outline: none;
+    border: 2px solid #ffffff;
+  }

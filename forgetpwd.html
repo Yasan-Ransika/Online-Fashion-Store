@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pwd reset</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Styles/forgetpwd.css">
+	<link rel="stylesheet" href="StyleSheets/StyleMain.css"/>
+	<script>
+        function verifyPassword() {
+            var newpw = document.getElementById("newpwd").value;
+            var confirmpw = document.getElementById("confirmpwd").value;
+            //check password equlaity  
+            if (newpw != confirmpw) {
+                alert("Password miss matched...");
+            }
+        } 
+		
+		function pwdConFunction(){
+			var pwd = document.getElementById("newpwd");
+			
+			if (pwd.type === "password")
+			{
+				pwd.type = "text";
+			}
+			else
+			{
+				pwd.type = "password";
+			}	
+			
+			
+			var pwdCon = document.getElementById("confirmpwd");
+			
+			if (pwdCon.type === "password")
+			{
+				pwdCon.type = "text";
+			}
+			else
+			{
+				pwdCon.type = "password";
+			}
+		}
+    </script>
+</head>
+	<body>	
+		<div class="login_container"> 
+		<center>
+			<form method="post" class="pwdreset" action="php/forgetpwd.php" id="reset">
+				<h1 class="form_title">Forget<br>Password</h1><br>
+				<div class="form_input_group">
+					<input type="text" class="form_input" name="email" autofocus placeholder="email">
+				</div><br>
+				<div class="form_input_group">
+					<input type="password" class="form_input" id="newpwd" name="NewPwd" autofocus placeholder="new password">
+				</div><br>
+				<div class="form_input_group">
+					<input type="password" class="form_input" id="confirmpwd" name="conPwd" autofocus placeholder="confirm password">
+				</div>
+				<br><input type="checkbox" onclick="pwdConFunction()">Show Password
+				<br><br><br><br>
+				<button class="form_login_btn" type="submit" name="smtbtn" onclick="verifyPassword()" >RESET</button><br><br>
+				<p class="form_text">
+			</form>
+			</center>
+		</div>	

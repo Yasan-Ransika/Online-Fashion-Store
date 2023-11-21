@@ -1,0 +1,62 @@
+
+
+body{
+  margin:0px;
+  background-color :rgb(248, 248, 240);
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+
+.logo a{
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.925);
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  display:inline-block;
+  position:absolute;
+  left:0%;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  margin-top: 27px;
+  padding-left: 100px;
+}
+
+
+
+.logo2{
+  color: #f5bf23;
+}
+
+
+/*add css part of login form*/
+
+
+.container {
+    position: absolute;
+    left: 0;
+    margin-bottom: 100px;
+    margin: 90px;
+    max-width: 1000px;
+    max-height: 2000px;
+    padding: 18px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    
+  }
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+
+.remamber {
+  color:#1b1a15 ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

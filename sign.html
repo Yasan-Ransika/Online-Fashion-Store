@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="Styles/login.css">
+  </head>
+    <body>
+      <section class="container forms">
+        <div>
+            <form action="php/sign.php" class="createAcc" method = "post">
+                <div class="log-cen">
+                <h1>SIGN UP</h1>
+                <div class="txt_field">
+                  <input type="text" id="fname" name="name" required>
+                  <label>Name</label>
+                  </div>
+                <div class="txt_field">
+                <input type="text" id="fname" name="uid" required>
+                <label>Username</label>
+                </div>
+                <div class="txt_field">
+                <input type="email" id="fname" name="email" required>
+                <label>Email Address</label>
+                </div>
+                <br>
+						    <div class="form_group">
+					      <label for="log" ><b>Log In as : </b></label>
+                <div><br>
+                <label for="Student" class="radio-inline"><input type="radio" name="accType" value="csr" id="Customer" required>Customer</label>
+                <label for="Staff" class="radio-inline"><input type="radio" name="accType" value="slr" id="Seller" required>Seller</label>
+                <label for="Staff" class="radio-inline"><input type="radio" name="accType" value="dvp" id="Delivery" required>Delivery Person</label>
+                </div>
+                <div class="txt_field">
+                <input type="password" id ="Iname" name="pwd" class="password" required>
+                <label>Password</label>
+                <i class='bx bx-hide eye-icon'></i>
+                </div>
+                <div class="txt_field">
+                <input type="password" id ="Iname" name="pwdrepeat" class="password" required>
+                <label>ConFirm Password</label>
+                </div>
+                <button name="submit" type="submit" class="link login-link">Register</button> 
+                <div class="sign_lnk">
+                <a href="login.html">Already have an account? Login</a>
+                </div>
+            </form>
+        </div>
+      </section>  
+      <script src="js/login.js"></script>
+    </body>
+</html>
